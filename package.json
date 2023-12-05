@@ -1,0 +1,23 @@
+{
+  "bin": {
+    "uu-cmd": "bin/index.js"
+  },
+  "scripts": {
+    "uu-cmd": "bin/index.js",
+    "update": "node ./bin/publish.js"
+  },
+  "bundleDependencies": [],
+  "dependencies": {
+    "@chenqi_uu/utils": "^1.0.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5"
+  },
+  "deprecated": false,
+  "description": "cq",
+  "keywords": [],
+  "license": "ISC",
+  "name": "@chenqi_uu/uu-cmd",
+  "version": "1.0.3"
+}
